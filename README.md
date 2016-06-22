@@ -74,7 +74,7 @@ var params = {
     transaction_id: '微信订单号'
 }
 
-var rs = yield wxpay.refund(params);
+var rs = yield wxpay.refund(params)
 ```
 
 ### 生成公众号支付参数
@@ -95,7 +95,7 @@ var params = yield wepay.getBrandWCPayRequestParams({
 
 ``` javascript
 WeixinJSBridge.invoke(
-  getBrandWCPayRequest", params, function(res){
+  "getBrandWCPayRequest", params, function(res){
     if(res.err_msg == "get_brand_wcpay_request:ok" ) {
       // success
     }
