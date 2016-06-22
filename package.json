@@ -6,8 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "airyland <airyland@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airyland/we-pay"
+  },
+  "license": "MIT",
   "dependencies": {
     "weixin-pay": "^1.1.7",
     "thunkify": "^2.1.2",
