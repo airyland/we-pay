@@ -1,0 +1,21 @@
+{
+  "name": "we-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "weixin-pay": "^1.1.7",
+    "thunkify": "^2.1.2",
+    "raw-body": "^2.1.7"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "koa": "^1.2.0",
+    "koa-router": "^5.4.0"
+  }
+}
